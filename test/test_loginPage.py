@@ -5,7 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from pages.catalogPage import CatalogPage
 from pages.itemPage import ItemPage
-from pages.loginPage import LoginPage
+from pages.mainPage import MainPage
+from pages.orderPage import OrderPage
 
 
 def test_order_oldi():
@@ -18,7 +19,7 @@ def test_order_oldi():
 
     print('Starting the test')
 
-    login = LoginPage(driver)
+    login = MainPage(driver)
     login.change_location()
     login.auth()
     login.catalog_surfing()
@@ -28,4 +29,7 @@ def test_order_oldi():
 
     order = ItemPage(driver)
     order.order_notebook()
+
+    conf = OrderPage(driver)
+    conf.order_confirmation()
 

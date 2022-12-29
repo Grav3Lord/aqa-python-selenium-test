@@ -51,76 +51,31 @@ class ItemPage(Base):
     def get_cart_sumtotal(self):
         return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.cart_sumtotal)))
 
-    def get_phone_number(self):
-        return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.phone_number_input)))
-
-    def get_delivery_button(self):
-        return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.delivery_button)))
-
-    def get_delivery_address_field(self):
-        return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.delivery_address_field)))
-
-    def get_payment_radio(self):
-        return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.payment_method_radio)))
-
-    def get_total_sumtotal(self):
-        return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, self.all_summ_total)))
-
     # Actions
 
     def click_add_to_cart(self):
         self.get_button_add_to_cart().click()
-        print('Item successfully added to cart')
+        print('Товар успешно добавлен в корзину')
 
     def click_cart_drop_menu(self):
         self.get_cart_arrow_button().click()
-        print('Cart menu dropped')
+        print('Выпадающее меню корзины открыто')
 
     def click_order_from_drop_cart(self):
         self.get_cart_order_button().click()
-        print('Transition to checkout')
-
-    def input_phone_number(self, phone):
-        self.get_phone_number().send_keys(phone)
-        print('Phone number')
-
-    def click_close_ad_button(self):
-        WebDriverWait(self.driver, 30).until(
-            EC.frame_to_be_available_and_switch_to_it((By.XPATH, self.second_layer)))
-        self.get_ad_button_close().click()
-        self.driver.switch_to.default_content()
-        print('Ad button closed, finally')
-
-    def click_delivery_button(self):
-        self.get_delivery_button().click()
-        print('Delivery to address selected')
-
-    def input_delivery_address(self, address):
-        self.get_delivery_address_field().send_keys(address)
-        # Здесь раньше был ещё одна строчка, но после одного оформленного заказа я её удалил.
-        # self.get_delivery_address_field().send_keys(Keys.ENTER)
-        # Если ввести сразу адрес, то можно обойтись без ввода индекса.
-        print('Address inputted')
-
-    def click_payment_radio(self):
-        self.get_payment_radio().click()
-        print('Payday')
+        print('Переход к оформлению заказа')
 
     # Methods
 
     def order_notebook(self):
-        self.get_current_url()
         try:
             self.click_add_to_cart()
         except ElementClickInterceptedException:
             self.click_close_ad_button()
             self.click_add_to_cart()
         self.click_cart_drop_menu()
-        self.assert_word(self.get_cart_sumtotal(), "59 690 a")
+        self.assert_word(self.get_cart_sumtotal(), "60 650 a")
         self.click_order_from_drop_cart()
-        self.input_phone_number('9951234567')
-        self.click_delivery_button()
-        self.input_delivery_address('ул Верности, д 34 литера А')
-        self.assert_word(self.get_total_sumtotal(), "59 939 a")
-        self.get_screenshot()
-        print('Test finished')
+        self.get_current_url()
+        self.assert_url('https://spb.oldi.ru/personal/order/make/')
+
