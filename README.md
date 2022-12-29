@@ -2,4 +2,4 @@
 
 ----------------------------------------
 
-Тест онлайн-магазина используя Python + Selenium + Chromedriver
+Тест онлайн-магазина используя Python + Selenium + Chromedriver + Pytest
