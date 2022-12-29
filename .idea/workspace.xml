@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c124056-aa34-4fb6-a2a9-c9a09a7b2052" name="Changes" comment="start?">
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/OOP_PythonProject/Logout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/aqa-practice-python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/base/baseClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/pages/catalogPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/pages/itemPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/pages/loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/pages/mainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/resource/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/resource/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/resource/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/screen/screenshot2022-12-27-11-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/aqa-practice-python/test/test_loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/python-Selenium/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/selenium-python-aq/base/baseClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/selenium-python-aq/pages/mainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../..//Users/wolwe/PycharmProjects/testProjectSauceDemo/test/test_add_to_cart.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JUlRavaKl9VDEZKyp5c7y9lKFA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/wolwe/PycharmProjects/aqa-practice-python/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\wolwe\PycharmProjects\aqa-practice-python\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="aqa-practice-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c124056-aa34-4fb6-a2a9-c9a09a7b2052" name="Changes" comment="" />
+      <created>1672140534649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672140534649</updated>
+      <workItem from="1672140541287" duration="2946000" />
+      <workItem from="1672333306193" duration="5452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="start?" />
+    <option name="LAST_COMMIT_MESSAGE" value="start?" />
+  </component>
+</project>
