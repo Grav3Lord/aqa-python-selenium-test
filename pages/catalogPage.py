@@ -112,3 +112,5 @@ class CatalogPage(Base):
             self.click_close_ad_button()
             self.click_notebook_item()
         self.assert_url('https://spb.oldi.ru/catalog/element/02008803/')
+
+
